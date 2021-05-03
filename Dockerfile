@@ -6,6 +6,6 @@ USER root
 
 RUN yum install -y git unzip && yum clean all
 
-RUN luarocks install kong-oidc
+RUN luarocks install kong-enhanced-oidc
 
 USER kong
